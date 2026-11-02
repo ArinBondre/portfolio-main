@@ -4,7 +4,7 @@ Personal portfolio site for Arin Bondre (Arcadia High School), showcasing roboti
 
 The Projects menu includes dedicated pages for the [CO₂ Detector](./co2-detector.html) and [Solar Tracker](./solar-tracker.html). The Solar Tracker page includes animated photo clips and a combined silent video of the original MOV recordings. The My Teams menu links to the [FIRST Robotics — Team 2429](./first-robotics.html) and [Tennis](./tennis.html) pages.
 
-## Live website
+## Live website 
 
 **https://github.com/ArinBondre/portfolio/**
 
