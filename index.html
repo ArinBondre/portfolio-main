@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Arin Bondre — Arcadia High School student interested in mechanical and electrical engineering, FIRST Robotics, tennis, and hands-on garage work.">
+  <title>Arin Bondre | Engineering Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav-logo" href="index.html#top">AB</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li class="nav-dropdown">
+          <button class="nav-projects-toggle" type="button" aria-expanded="false" aria-controls="project-menu">
+            Projects
+            <span class="nav-chevron" aria-hidden="true"></span>
+          </button>
+          <ul class="nav-submenu" id="project-menu">
+            <li><a href="co2-detector.html">CO₂ Detector</a></li>
+            <li><a href="solar-tracker.html">Solar Tracker</a></li>
+          </ul>
+        </li>
+        <li class="nav-dropdown">
+          <button class="nav-projects-toggle" type="button" aria-expanded="false" aria-controls="teams-menu">
+            My Teams
+            <span class="nav-chevron" aria-hidden="true"></span>
+          </button>
+          <ul class="nav-submenu" id="teams-menu">
+            <li><a href="first-robotics.html">FIRST Robotics</a></li>
+            <li><a href="tennis.html">Tennis</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">About Me</span>
+          <h1 class="about-title">Arin Bondre</h1>
+          <p class="section-desc">
+            Senior at Arcadia High School, interested in pursuing
+            engineering.
+          </p>
+        </div>
+        <div class="about-grid">
+          <figure class="about-portrait">
+            <img src="images/Arin.png" alt="Arin Bondre" width="505" height="787">
+          </figure>
+          <p>
+            I am an engineering-focused student who enjoys understanding how things
+            work and solving practical problems. I like combining hands-on building,
+            design, and technical learning to develop ideas and make them work in
+            the real world.
+          </p>
+          <ul class="about-highlights">
+            <li>
+              <strong>Arcadia High School</strong>
+              <span>Senior, Class of 2027</span>
+            </li>
+            <li>
+              <strong>Engineering Interests</strong>
+              <span>Computer or Electrical Engineering</span>
+            </li>
+            <li>
+              <strong>UCLA Pre-college Engineering Institute</strong>
+              <span>Microcontroller Engineering Program</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="garage" class="section garage-section projects-section--alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Hands-On Experience</span>
+          <h2>Mechanical Garage</h2>
+        </div>
+
+        <article class="project-card garage-card">
+          <figure class="project-image">
+            <img src="images/mechanical-garage.jpg" alt="Arin Bondre working on a car raised on a lift in an auto repair garage" width="800" height="600">
+          </figure>
+          <div class="project-body">
+            <p>
+              Working in my family garage gives me practical experience diagnosing
+              vehicle systems, carrying out repairs, and seeing how mechanical
+              assemblies work under real conditions. It complements my engineering
+              interests and gives me a hands-on way to keep learning.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-navigation-cta" aria-label="Explore projects and teams">
+      <a class="btn btn-primary" href="co2-detector.html">Explore Projects</a>
+      <a class="btn btn-ghost" href="first-robotics.html">Explore My Teams</a>
+    </section>
+
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-name">Arin Bondre</p>
+        <p class="footer-meta">Arcadia High School · Class of 2027</p>
+      </div>
+      <div class="footer-contact">
+        <p class="footer-note"></p>
+        <a class="footer-email" href="mailto:arinbondre@gmail.com">arinbondre@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
